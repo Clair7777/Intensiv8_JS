@@ -6,7 +6,6 @@ links.forEach((link) => {
     event.preventDefault();
 
     const section = document.querySelector(link.getAttribute("href"));
-
     if (section) {
       seamless.scrollIntoView(section, {
         behavior: "smooth",
